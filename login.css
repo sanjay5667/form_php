@@ -1,0 +1,70 @@
+
+body
+{
+      font-family: 'Times New Roman', Times, serif;
+      margin-top: 4%;
+      background-size: cover;
+      background-image: url(https://i.pinimg.com/originals/3e/cc/25/3ecc2503ccbe98a6f38bacd08496448f.jpg);
+      
+}
+h1
+{
+    color: rgb(46, 167, 146);
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+}
+h1:hover
+{
+    color: rgb(190, 113, 12);
+}
+fieldset
+{   
+
+    margin-left: 25%;
+    margin-right: 25%;
+    padding-top: 6%;
+    padding-bottom: 5%;
+    border-width: 0ch;
+    
+}
+.btn
+{
+    font-weight: bold;
+    padding: 13px 18px 13px 18px;
+    border-radius: 5px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 15px;
+}
+
+span
+{
+    font-size: 20px;
+    color: rgb(206, 119, 21);
+}
+input[value="Sendnow"]:hover
+{
+    color: rgb(44, 17, 197);
+}
+
+input::placeholder
+{
+    color: rgb(19, 144, 175);
+    font-weight: bold;
+    font-size: 10pt;
+}
+input
+{
+    border-radius: 5px;
+    border-width: 0ch;
+    font-size: small;
+    font-family: 'Times New Roman', Times, serif;
+    padding: 4pt 18pt 4pt 18pt;
+    background-color: bisque;
+}
+input[type="date"]
+{
+    font-size: small;
+    font-family: 'Times New Roman', Times, serif;
+    padding: 3pt 40pt 3pt 40pt;
+   
+}
